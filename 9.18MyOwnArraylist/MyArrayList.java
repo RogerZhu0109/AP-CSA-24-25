@@ -6,14 +6,19 @@ public class MyArrayList {
     public MyArrayList() {
         list = new Object[10];
         logical_Size = 0;
+        physical_Size = 10;
+    }
+
+    public void add(Object value) {
+        if (logical_Size == physical_Size) {
+            increaseSize();
+        }
+        list[logical_Size] = value;
+        logical_Size++;
 
     }
 
-    public void add() {
-
-    }
-
-    public void insert(int index) {
+    public void insert(int index, Object value) {
 
     }
 
@@ -39,7 +44,7 @@ public class MyArrayList {
         return "";
     }
 
-    private void increase_Size() {
+    private void increaseSize() {
 
     }
 
