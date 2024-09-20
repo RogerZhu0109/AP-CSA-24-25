@@ -10,11 +10,6 @@ public class Tester {
         array.add(7);
         array.add(8);
         array.add(9);
-        array.add("Hello");
-        array.remove(5);
-        array.insert(0, "alskdjflaskjdflkjfskldj");
-        System.out.println(array.get(3));
-        System.out.println(array.getLogicalSize());
-        System.out.println(array);
+
     }
 }
