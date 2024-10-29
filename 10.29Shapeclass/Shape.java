@@ -1,4 +1,4 @@
-abstract public class Shape {
+abstract public class Shape implements Comparable<Shape> {
     private String name;
     private String color;
 
