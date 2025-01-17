@@ -11,7 +11,7 @@ public class Main {
     private static Scanner s;
 
     public static void main(String[] args) throws FileNotFoundException {
-        s = new Scanner(new File(args[0]));
+        s = new Scanner(new File("/Users/rogerzhu/Documents/GitHub/AP-CSA-24-25/Bee/beesetup1.txt"));
         s.useDelimiter(",|\r\n");
         s.nextInt();
 
